@@ -513,7 +513,9 @@ main .grid-item {
     font-weight: 800;
     transition: all 0.8s ease;
     font-size: 2.5em;
-    width: 100%; }
+    width: 100%; 
+    padding-left: 15px;
+    padding-top: 10px;}
   main .grid-item ul.tags {
     padding: 2.5% 0 0 0;
     list-style: none;
@@ -522,7 +524,10 @@ main .grid-item {
       display: block;
       float: right;
       clear: both;
-      color: #A0A0A0; }
+      color: #A0A0A0; 
+    padding-top: 14px;
+  padding-right: 10px;
+  padding-left: 15px;}
 
 button#scroll-to-top {
   display: none;
